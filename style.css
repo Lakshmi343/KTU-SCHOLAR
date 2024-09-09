@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+nav{
+    box-shadow: 4px 4px 4px 4px #f0f0f0;
+ 
+}  
+nav .container-fluid{
+ margin-left: 70px;
+}
+
+
+/* homepage */
+.home-page{
+  padding: 50px;
+}
+
+.heading{
+  color: #4B4647;
+
+}
+
+.heading span{
+font-size: 80px;
+font-weight: bold;
+}
+.head-titile{
+  font-size: 80px;
+  color: #003362;
+  
+}
+.head-titile span{
+  color: #F39C2A;
+}
+.home-page button{
+  background-color: #F39C2A;
+  color: black;
+  height: auto;
+  width: 150px;
+  border: none;
+  justify-content: space-between;
+}
+.home-page h6{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home-page  {
+  font-size: 30px;
+}
+.btn-icon{
+  gap: 20px;
+  padding: 20px;
+}
+.btn-icon button{
+  background-color: #FFEAC1;
+  height: auto;
+  width: 150px;
+}
+
+/* footer */
+/* .footer{
+  background-color: #131022;
+}
+.footer-icons{
+  background-color: transparent ;
+  gap: 30px;
+padding: 30px;
+ 
+}
+.footer-icons p{
+  border: 1px solid;
+  border-radius: 100px;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+} */
+ 
+/* ABOUT PAGE */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #F39C2A;
+  color: orange;
+  
+  margin-bottom: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #002147;
+}
+.app-description {
+  padding: 40px 0;
+}
+.app-description h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #002147;
+}
+.ktu-aboutpage {
+  background: linear-gradient(#A9BEFF,#f3f6ff ); 
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+/* our course */
+.ktu-ourcourse{
+  background-color: #fff;
+  padding: 60px;
+}
+/* 
+second footer */
+.contact-foooter{
+  background-color: #fff;
+}
+.footer-message{
+  background: linear-gradient(#A9BEFF,#f3f6ff ); 
+  height: 400px;
+  width: 700px;
+  margin-left: 400px;
+}
+
+/* OUR  FEATURES */
+.our-features{
+  background-color:#f3f6ff;
+}
+.feature-icon {
+ 
+font-weight: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.feature-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-box h5 {
+  font-weight: bold;
+}
+.feature-box p {
+  color: #6c757d;
+}
+
+/* details-section */
+.details-section{
+  background-color: #ffffff;
+  padding: 30px;
+}
+.deails-data iframe{
+  border: 1px solid;
+  border-radius: 12px;
+  box-shadow:  4px 4px 4px  #ffffff;
+  border: none;
+}
+.deatils-data{
+  padding: 20px;
+}
+iframe{
+  box-shadow: 4px 4px 4px 4px #f0f0f0;
+  border-radius: 20px;
+}
+
+.stats-section {
+  padding: 30px 0;
+  background-color: #f8f9fa;
+}
+.stats-section h4 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.stats-section h4 img {
+  margin-right: 10px;
+}
+.details-data h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.details-data p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.details-data button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* testimonial */
+.testimonial-section {
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #0056b3;
+  font-weight: 700;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+small {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* 
+trainers */
+.testimonial-section {
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #F39C2A;
+  font-weight: 700;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+small {
+  font-size: 0.85rem;
+  color: #888;
+}
+.fab{
+  color: #F39C2A;
+}
