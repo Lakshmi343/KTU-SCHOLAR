@@ -123,6 +123,9 @@ padding: 30px;
   background-color: #fff;
   padding: 60px;
 }
+.ktu-ourcourse .card{
+  width: 400px;
+}
 /* 
 second footer */
 .contact-foooter{
@@ -276,4 +279,170 @@ small {
 }
 .fab{
   color: #F39C2A;
+}
+
+
+
+/* About page */
+.about-page{
+  background-color: #ffffff;
+  padding: 60px;
+}
+.about-page h1{
+  color: #F39C2A;
+ font-size: 50px;
+  font-weight: bold;
+}
+
+.about-page p{
+  color: #000;
+  font-size: large;
+  
+}
+.about-page .row {
+  padding: 0 15px; /* Ensures padding is consistent */
+}
+
+.about-page .col-md-6 {
+  padding: 0 30px; /* Add padding to control the line start and end */
+}
+/* Custom Styling */
+/* .platform-goal {
+  background-color: #e8eff7;
+  box-shadow: 4px 4px 4px 4px; /* Light grey background */
+*/
+
+.platform-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #3e3e51;
+}
+
+.platform-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+/* Custom Styles */
+.studylab-section {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.texts {
+  font-weight: bold;
+  color: #000;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.studylab-section img {
+  width: 50px;
+  height: 50px;
+}
+/* Custom Styles */
+.card {
+  border-radius: 15px;
+  background-color: #f8f9fa;
+}
+
+.quote-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.rating {
+  color: #f39c12; /* Star color */
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #343a40;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40;
+  border-radius: 50%;
+}
+
+
+
+
+/* contact */
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box .icon-box {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.info-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info-box h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.info-box p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #ff5722;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #ff5722;
+  border-color: #ff5722;
 }
